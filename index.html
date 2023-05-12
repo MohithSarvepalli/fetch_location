@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravan</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="article">
+            <h4 id="ip-address"></h4>
+            <h4 id="location"></h4>
+            <h4 id="result-cookies"></h4>
+        </div>
+        <div class="buttons">
+            <div>
+                <button onclick="displayIPAddress()">
+                    <span>Find my IP 📟</span>
+                </button>
+                <button onclick="getLocation()">
+                    <span>My Location 📍</span>
+                </button>
+            </div>
+            <div>
+                <button>
+                    <span>Random Chat! 💬</span>
+                </button>
+                <button onclick="getCookies()">
+                    <span>Gather Cookies 🍪</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
